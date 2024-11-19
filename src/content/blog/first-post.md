@@ -1,13 +1,13 @@
 ---
 title: 'Physics Engine'
 description: 'Lorem ipsum dolor sit amet'
-pubDate: '11.11.2024'
+pubDate: '11.18.2024'
 heroImage: '/vroum.jpg'
 ---
 
 ### What is Vroum Engine?
 
-Vroum Engine is a small physic engine made in C++ .
+Vroum Engine is a small physics engine made in C++ .
 
 ### What does Vroum Engine do?
 
@@ -18,7 +18,7 @@ In Vroum Engine, you can:
 
 ## How does Vroum Engine apply forces?
 
-Vroum Engine uses a custom Vector2D class to apply forces. In this scene, which simulates a solar system using gravity and an initial force, we can see planets orbiting around a sun.
+Vroum Engine uses a custom Vector2D class to apply forces. In this scene, which simulates a solar system using gravity and an initial angular force, we can see planets orbiting around a sun.
 
 ---
 <video controls style="width: 100%; height: auto;">
@@ -48,7 +48,7 @@ Then, we implemented a Quadtree, which divides the screen if there are too many 
 
 ## How does Vroum Engine manage triggers?
 
-Triggers are an option that a shape can have to detect if any other shape is touching the trigger shape. In this scene, we see the shape turning red when the shapes are touching each other.
+Triggers are an option that a shape can have to detect if any other shape is touching the trigger shape. In this scene, we see shapes turning red when touching an other shape.
 
 ---
 <video controls style="width: 100%; height: auto;">
@@ -60,6 +60,7 @@ Triggers are an option that a shape can have to detect if any other shape is tou
 ## Test
 
 To test the engine, we tried the solar system simulation with collisions, and here are the results.
+
 ---
 <video controls style="width: 100%; height: auto;">
   <source src="/solar_colision.mp4" type="video/mp4">
