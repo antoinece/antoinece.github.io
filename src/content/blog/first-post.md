@@ -1,5 +1,5 @@
 ---
-title: 'Physique Engine'
+title: 'Physics Engine'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: '11.11.2024'
 heroImage: '/vroum.jpg'
