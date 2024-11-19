@@ -21,7 +21,10 @@ In Vroum Engine you can :
 Vroum Engine uses a self made vector2D to apply forces. In this scene that simulate a solar systeme using gravity and a starting force we can see planetes turning around a sun.
 
 ---
-![Solar Systeme](/solar_systeme.gif)
+<video controls style="width: 100%; height: auto;">
+  <source src="/solar_systeme.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
 ---
 
 ## How does Vroum Engine manage colisions ?
