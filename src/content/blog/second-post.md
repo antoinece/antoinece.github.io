@@ -45,6 +45,11 @@ after this the back face culling was added
 
 the frustum culling was also added to enhance the perfoemences
 
+<video controls style="width: 100%; height: auto;">
+  <source src="/frustum.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>
+
 ## Blinn-Phong shading model
 
 a Blinn-Phong was added for the lightning 
@@ -66,11 +71,16 @@ with bloom:
 
 ## Instancing
 
+there is some instancing whith the 3000 trees
+![blog placeholder](/instancing.png)
 
 ## Normal map
 
+there is also some normal maping on the brick ground
+![blog placeholder](/normal.png)
 
-
+using this normal map texture:
+![blog placeholder](/brickwall_normal.jpg)
 
 
 
