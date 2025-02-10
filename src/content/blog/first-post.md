@@ -7,7 +7,7 @@ heroImage: '/vroum.jpg'
 
 ### What is Vroum Engine?
 
-Vroum Engine is a small physics engine made in C++ .
+Vroum Engine is a small physics engine made in C++ . 
 
 ### What does Vroum Engine do?
 
