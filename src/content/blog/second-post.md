@@ -20,11 +20,15 @@ In this 3D scene there is:
 - Framebuffer
 - Bloom
 - instancing
+- Normal map
 - Shadow Map
+- Deferred rendering
+- SSAO
+- Gamma correction
 
 ## 3D model loading
 
-the first thing that was made was loading a 3D model with Assimp 
+the first thing that was made was loading a 3D model in GLTF with Assimp 
 ![blog placeholder](/3Dloading.png)
 
 ## Cubemap
@@ -63,7 +67,7 @@ with bloom:
 ## Instancing
 
 
-
+## Normal map
 
 
 
@@ -74,22 +78,22 @@ with bloom:
 ## Shadow Map
 
 
-
-
-
-
-
-
-
-
-
-
-
 ## Deferred rendering
+
 
 ## SSAO
 
-## Normal map
 
 ## Gamma correction
+
+
+
+
+
+
+
+
+
+
+
 
