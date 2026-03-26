@@ -217,3 +217,16 @@ Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and ot
 
 put this at the top of new .md to make new blog post page
 ![blog placeholder](/remenber.png)
+
+
+pour auto play des video. modif le global css pour des ajustements
+<video class="video-gif" autoplay loop muted playsinline>
+  <source src="/frustum.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+sinon video clasique
+<video controls style="width: 100%; height: auto;">
+  <source src="/frustum.mp4" type="video/mp4">
+  Votre navigateur ne supporte pas la lecture de vidéos.
+</video>

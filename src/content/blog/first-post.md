@@ -21,7 +21,7 @@ In Vroum Engine, you can:
 Vroum Engine uses a custom Vector2D class to apply forces. In this scene, which simulates a solar system using gravity and an initial angular force, we can see planets orbiting around a sun.
 
 ---
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/solar_systeme.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
@@ -31,7 +31,7 @@ Vroum Engine uses a custom Vector2D class to apply forces. In this scene, which 
 Initially, it checks collisions between each object and every other object. This is done for all objects.
 
 ---
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/colision.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
@@ -40,7 +40,7 @@ Initially, it checks collisions between each object and every other object. This
 Then, we implemented a Quadtree, which divides the screen if there are too many shapes. It keeps dividing itself until there is a predefined number of shapes inside each section, and then it checks collisions for each part of the Quadtree individually.
 
 ---
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/quadtree.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
@@ -51,7 +51,7 @@ Then, we implemented a Quadtree, which divides the screen if there are too many 
 Triggers are an option that a shape can have to detect if any other shape is touching the trigger shape. In this scene, we see shapes turning red when touching an other shape.
 
 ---
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/trigger.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
@@ -62,7 +62,7 @@ Triggers are an option that a shape can have to detect if any other shape is tou
 To test the engine, we tried the solar system simulation with collisions, and here are the results.
 
 ---
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/solar_colision.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>

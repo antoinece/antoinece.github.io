@@ -45,7 +45,7 @@ after this the back face culling was added
 
 the frustum culling was also added to enhance the perfoemences
 
-<video controls style="width: 100%; height: auto;">
+<video class="video-gif" autoplay loop muted playsinline>
   <source src="/frustum.mp4" type="video/mp4">
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
