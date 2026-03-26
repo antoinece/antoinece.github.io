@@ -2,7 +2,7 @@
 title: '3D Scene'
 description: 'Lorem ipsum dolor sit amet'
 pubDate: '02.11.2025'
-heroImage: '/blog-placeholder-4.jpg'
+heroImage: '/nb.png'
 ---
 
 ## What is this 3D scene ?
