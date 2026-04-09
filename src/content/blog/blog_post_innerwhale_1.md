@@ -1,5 +1,5 @@
 ---
-title: 'Innerwhale default ennemi'
+title: 'Innerwhale default ennemy'
 description: 'blog_post_innerwhale_1'
 pubDate: '03.26.2026'
 heroImage: '/manta.png'
