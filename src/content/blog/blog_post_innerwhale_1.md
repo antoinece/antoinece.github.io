@@ -28,3 +28,11 @@ Both the second and third variants introduce a shell mechanic, rendering the ene
 
 Working on this project was my first experience with Unreal Engine. Throughout the process, I progressively discovered and learned new techniques that were completely unfamiliar to me at the start.
 
+
+<div class="iframe-container">
+  <iframe 
+    src="https://blueprintue.com/render/1fqk2kwe/" 
+    scrolling="no" 
+    allowfullscreen>
+  </iframe>
+</div>
