@@ -6,9 +6,16 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
 import { getCollection } from 'astro:content';
 import FormattedDate from '../../components/FormattedDate.astro';
 
-const posts = (await getCollection('blog')).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
-);
+const isDev = import.meta.env.DEV;
+
+const allPosts = await getCollection('blog');
+
+const posts = allPosts
+	.filter(post => {
+		if (post.data.draft && !isDev) return false;
+		return true;
+	})
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <!doctype html>

@@ -2,7 +2,7 @@
 title: 'test'
 draft: true
 description: 'Lorem ipsum dolor sit amet'
-pubDate: '01.01.0'
+pubDate: '01.01.34'
 heroImage: '/blog-placeholder-2.jpg'
 ---
 
