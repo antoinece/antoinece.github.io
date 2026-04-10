@@ -232,7 +232,10 @@ sinon video clasique
   Votre navigateur ne supporte pas la lecture de vidéos.
 </video>
 
+---
+
 pour metre des buleprint unreal 
+il faut utiliser se site pour generer le lien https://blueprintue.com
 <div class="iframe-container">
   <iframe 
     src="https://blueprintue.com/render/1fqk2kwe/" 
@@ -240,3 +243,7 @@ pour metre des buleprint unreal
     allowfullscreen>
   </iframe>
 </div>
+
+---
+pour que le fichier sois visible que dans "npm run dev" et pas sur le site
+![blog placeholder](/draft.png)

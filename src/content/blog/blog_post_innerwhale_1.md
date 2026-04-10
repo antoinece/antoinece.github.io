@@ -24,14 +24,14 @@ Both the second and third variants introduce a shell mechanic, rendering the ene
 
 ---
 
-### 2. programation
+### 2. Programmation
 
 Working on this project was my first experience with Unreal Engine. Throughout the process, I progressively discovered and learned new techniques that were completely unfamiliar to me at the start.
 
-
+at first evrythig was in the blueprint
 <div class="iframe-container">
   <iframe 
-    src="https://blueprintue.com/render/1fqk2kwe/" 
+    src="https://blueprintue.com/render/luicn7j4/" 
     scrolling="no" 
     allowfullscreen>
   </iframe>
